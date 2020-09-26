@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.2",
         "reedware/laravel-sms": "^0.3",
-        "vonage/client-core": "^2.3"
+        "vonage/client-core": "^2.4"
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^7.0",
