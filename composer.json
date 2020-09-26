@@ -1,0 +1,40 @@
+{
+    "name": "reedware/laravel-sms-twilio",
+    "description": "Adds the ability to send text messages using Nexmo.",
+    "keywords": ["laravel", "sms", "twilio"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Reed",
+            "email": "tylernathanreed@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "reedware/laravel-sms": "^0.3",
+        "vonage/client": "^2.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3.1",
+        "laravel/framework": "^6.0|^7.0|^8.0",
+        "orchestra/testbench-core": "^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.3|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reedware\\LaravelSMS\\Nexmo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reedware\\LaravelSMS\\Tests\\Nexmo\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Reedware\\LaravelSMS\\Nexmo\\NexmoServiceProvider"
+            ]
+        }
+    }
+}
