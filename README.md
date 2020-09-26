@@ -19,10 +19,8 @@ Set the `default` option in your `config/sms.php` configuration file to `nexmo` 
 
     'your-driver-name' => [
         'transport' => 'nexmo',
-        'api_key' => 'your-nexmo-api-key',
-        'api_secret' => 'your-nexmo-secret',
-        'signature_secret' => 'your-nexmo-signature-secret',
-        
+        'key' => 'your-nexmo-key',
+        'secret' => 'your-nexmo-secret
     ],
 
 Once the sms provider has been configured, you can then start sending text messages using Nexmo. To get started and view examples, refer to the [Laravel SMS](https://github.com/tylernathanreed/laravel-sms) documentation.
