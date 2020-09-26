@@ -1,7 +1,7 @@
 {
-    "name": "reedware/laravel-sms-twilio",
+    "name": "reedware/laravel-sms-nexmo",
     "description": "Adds the ability to send text messages using Nexmo.",
-    "keywords": ["laravel", "sms", "twilio"],
+    "keywords": ["laravel", "sms", "nexmo"],
     "license": "MIT",
     "authors": [
         {
