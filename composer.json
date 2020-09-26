@@ -12,7 +12,7 @@
     "require": {
         "php": "^7.2",
         "reedware/laravel-sms": "^0.3",
-        "vonage/client": "^2.0"
+        "vonage/client": "^2.3"
     },
     "require-dev": {
         "mockery/mockery": "^1.3.1",
