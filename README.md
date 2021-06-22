@@ -1,7 +1,7 @@
 # Laravel SMS Nexmo
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/reedware/laravel-sms-nexmo?label=stable)](https://packagist.org/packages/reedware/laravel-sms-nexmo)
-[![Build Status](https://travis-ci.com/tylernathanreed/laravel-sms-nexmo.svg?branch=master)](https://travis-ci.com/tylernathanreed/laravel-sms-nexmo)
+[![Build Status](https://github.com/tylernathanreed/laravel-sms-nexmo/workflows/tests/badge.svg)](https://github.com/tylernathanreed/laravel-sms-nexmo/actions)
 
 ## Introduction
 
