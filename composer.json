@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "reedware/laravel-sms": "^0.3",
+        "php": ">=7.3",
+        "reedware/laravel-sms": "^1.0",
         "vonage/client-core": "^2.4"
     },
     "require-dev": {
